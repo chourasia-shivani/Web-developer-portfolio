@@ -1,0 +1,74 @@
+body{
+    
+    background:  linear-gradient(90deg, rgba(17,71,25,0.5) 100%, rgba(70,82,187,0.5) 100%) ,url(./people-working.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:wheat;
+   font-size: 1.5rem;
+}
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+form{
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    width:50%;
+    background-color: #4a0f0a;
+    opacity:0.9;
+    border-radius: 0.25rem;
+}
+#name ,#email, #number{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 15px;
+    height:2rem;
+    border-radius: 0.2rem;
+     
+}
+#name-label,#email-label,#number-label{
+    color:wheat;
+   font-size: 1.5rem;
+
+}
+
+#question ,#question3{
+    box-sizing: border-box;
+    width: 100%;
+    /* margin-top:15px ; */
+    height:2rem;
+    border-radius: 0.2rem;
+}
+button{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom:15px ;
+    margin-top: 15px;
+    height:2rem;
+    border-radius: 0.2rem;
+ background: rgba(3, 19, 3, 1);
+ font-size: 1rem;
+ color:wheat;
+ 
+}
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    /* margin-top:15px ; */
+    height:7rem;
+    border-radius: 0.2rem;
+
+}
+
+
+
+
+   
+    
+    
